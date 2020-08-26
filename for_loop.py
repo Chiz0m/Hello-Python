@@ -47,3 +47,11 @@ print('''
 print('''
     
     ''')
+
+
+# this calculates the total number of items in a shoping cart
+price_list = [20, 10, 20, 10]
+total = 0
+for item in price_list:
+    total += item
+print("Total is: " + str(total))
